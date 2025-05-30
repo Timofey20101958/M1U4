@@ -5,7 +5,7 @@ import threading
 import schedule
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-TELEGRAM_TOKEN = '8087350032:AAHV5WaR4Vk_WENxfstsX7zJ6HzfEgzaSlk'
+from config import api_token
 
 bot = telebot.TeleBot(TELEGRAM_TOKEN)
 
